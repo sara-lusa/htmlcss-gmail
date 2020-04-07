@@ -1,0 +1,81 @@
+/* Regole generali */
+body {
+  background-image: url("../img/sfondo.jpg");
+  margin: 0;
+}
+.main-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+/* Fine regole generali */
+
+/* Intestazione */
+.intestazione {
+  color: white;
+}
+/* Top intestazione */
+.top-intestazione img {
+  height: 100px;
+  vertical-align: middle;
+}
+.top-intestazione span {
+  font-size: 25px;
+}
+/*Fine top intestazione */
+
+#top {
+  margin: 0 auto;
+}
+
+/* Bottom intestazione */
+.bottom-intestazione {
+  font-size: 25px;
+}
+.bottom-intestazione p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+.bottom-intestazione span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+}
+/* Fine bottom intestazione */
+/* Fine intestazione */
+
+/* Contenuto */
+.contenuto .mail {
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding: 2px;
+}
+.contenuto .unread {
+  background-color: white;
+}
+.oggetto {
+  font-weight: bold;
+}
+.testo {
+  color: grey;
+}
+/* Fine contenuto */
+
+/* Footer */
+.footer p {
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 15px
+}
+.footer span {
+  font-style: normal;
+  font-size: 26px;
+}
+/* Fine footer */
